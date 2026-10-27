@@ -1,0 +1,27 @@
+# Xcode / SPM Build Artifacts
+.build/
+Packages/
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+
+# Binaries & Bundles (Release assets uploaded via GitHub Releases)
+*.app
+*.dmg
+*.zip
+LiveNotes
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Secrets & Environment Variables
+.env
+.env.*
+*.key
+*.pem
